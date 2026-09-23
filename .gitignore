@@ -1,0 +1,41 @@
+.env
+.env.local
+.env.*.local
+.data/
+backups/
+*.dump
+*.db
+*.sqlite
+*.sql.gz
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.log
+backend/.wwebjs_auth/
+backend/uploads/
+dist-packages/
+
+# Local build/runtime artifacts and packaged binaries
+.build-windows-portable/
+.runtime-cache/
+.cache/
+.vite/
+coverage/
+*.tsbuildinfo
+*.zip
+*.tar.gz
+*.tgz
+
+# Local browser/session state and generated uploads
+.wwebjs_auth/
+.data/
+*.key
+
+# Local Cloudflare Tunnel configuration and credentials
+deploy/cloudflare-tunnel/config.yml
+deploy/cloudflare-tunnel/*.json
+
+# OS metadata and full database exports
+.DS_Store
+*.full.sql

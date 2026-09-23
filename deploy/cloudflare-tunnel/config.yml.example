@@ -1,0 +1,9 @@
+tunnel: replace-with-tunnel-uuid
+credentials-file: C:\\Users\\replace-me\\.cloudflared\\replace-with-tunnel-uuid.json
+
+ingress:
+  - hostname: crm.aarinaishop.com
+    service: http://127.0.0.1:5188
+  - hostname: api.crm.aarinaishop.com
+    service: http://127.0.0.1:4190
+  - service: http_status:404
